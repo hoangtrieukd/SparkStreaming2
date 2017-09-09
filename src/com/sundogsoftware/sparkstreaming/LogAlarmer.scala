@@ -98,7 +98,7 @@ object LogAlarmer {
     // production website! There's more you need.
     
     // Kick it off
-    ssc.checkpoint("C:/checkpoint/")
+    ssc.checkpoint("/home/ht/BigData/Timing/Checkpoint/")
     ssc.start()
     ssc.awaitTermination()
   }
